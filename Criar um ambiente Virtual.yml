@@ -1,0 +1,15 @@
+Criar um ambiente Virtual 
+
+- No terminal detro da pasta onde quer criar digitar o comando: 
+
+python3 -m venv venv 
+
+- Ativar o ambiente Virtual:
+
+source venv/bin/activate
+
+python -m pip install pip setuptools wheel --upgrade
+
+- Intalar o Django:
+
+pip install django 
