@@ -13,3 +13,18 @@ python -m pip install pip setuptools wheel --upgrade
 - Intalar o Django:
 
 pip install django 
+
+- Ativar o interpretador python:
+
+cmd + shift + P 
+
+- Subir o servidor django: 
+
+python manage.py runserver   (So pra desenvolvimento)
+
+
+
+
+- Criar um projeto com django:
+
+ django-admin startproject projeto . (Precisa colocar o ponto no final para ele nao criar uma pasta dentro da outra)
