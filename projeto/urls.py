@@ -15,15 +15,13 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.http import HttpResponse
+#from django.http import HttpResponse
 from django.urls import path
+from home.views import home
+from recife.views import recife
 
-
-def my_view(request):
-    return HttpResponse('Teste de Response')
-
-  
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sobre/', my_view),  
+    path('', home), 
+    path('recife/', recife),  
 ]
