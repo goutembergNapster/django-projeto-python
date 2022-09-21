@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+#from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def recife(request):
-    return HttpResponse('Recife')
+    return render(request, 'home.html')
